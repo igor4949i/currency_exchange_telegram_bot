@@ -1,0 +1,25 @@
+{
+  "name": "currency_exchange_telegram_bot",
+  "version": "1.0.0",
+  "description": "Name:\r monoCurrencyExchangeBot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor4949i/currency_exchange_telegram_bot.git"
+  },
+  "author": "Igor <igor4949i@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igor4949i/currency_exchange_telegram_bot/issues"
+  },
+  "homepage": "https://github.com/igor4949i/currency_exchange_telegram_bot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "currency-codes": "^2.1.0",
+    "telegraf": "^4.3.0"
+  }
+}
